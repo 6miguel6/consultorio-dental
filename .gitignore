@@ -1,0 +1,22 @@
+﻿# Dependencias
+node_modules/
+
+# Build
+dist/
+build/
+
+# Variables de entorno (contienen contraseñas)
+.env
+.env.local
+.env.*.local
+
+# Kiro (configuración local del editor)
+.kiro/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
